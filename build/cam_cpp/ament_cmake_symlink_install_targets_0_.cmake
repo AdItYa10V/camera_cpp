@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lactosenjoyer/cam_cpp/build/cam_cpp/imgPub" "/home/lactosenjoyer/cam_cpp/build/cam_cpp/imgSub" "TARGETS" "imgPub" "imgSub" "DESTINATION" "lib/cam_cpp")

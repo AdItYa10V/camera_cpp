@@ -1,0 +1,5 @@
+[ 33%] Built target multi_stage_components
+[ 55%] Built target producer_node
+[ 77%] Built target display_node
+[ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cam_container[0m

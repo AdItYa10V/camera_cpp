@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4
+[0.257s] [ 22%] Built target producer_node
+[0.263s] [ 44%] Built target display_node
+[0.273s] [ 77%] Built target multi_stage_components
+[0.307s] [35m[1mConsolidate compiler generated dependencies of target cam_container[0m
+[0.359s] [ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[21.094s] [100%] [32m[1mLinking CXX executable cam_container[0m
+[24.913s] [100%] Built target cam_container
+[24.959s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4
+[24.966s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/cam_cpp_components
+[24.998s] -- Install configuration: ""
+[24.999s] -- Execute custom install script
+[25.012s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/producer_node
+[25.055s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/display_node
+[25.092s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/libmulti_stage_components.so
+[25.139s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/cam_container
+[25.159s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/include/cam_cpp_components/cam.hpp
+[25.178s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/package_run_dependencies/cam_cpp_components
+[25.208s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/parent_prefix_path/cam_cpp_components
+[25.242s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.sh
+[25.272s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.dsv
+[25.293s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.sh
+[25.326s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.dsv
+[25.345s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.bash
+[25.378s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.sh
+[25.428s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.zsh
+[25.464s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.dsv
+[25.519s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.dsv
+[25.547s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/packages/cam_cpp_components
+[25.592s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/rclcpp_components/cam_cpp_components
+[25.653s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig.cmake
+[25.684s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig-version.cmake
+[25.753s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.xml
+[25.803s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/cam_cpp_components

@@ -1,0 +1,2 @@
+source;share/cam_cpp_components/environment/ament_prefix_path.sh
+source;share/cam_cpp_components/environment/path.sh

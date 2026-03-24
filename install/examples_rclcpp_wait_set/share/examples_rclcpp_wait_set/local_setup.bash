@@ -1,0 +1,1 @@
+/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set/ament_cmake_environment_hooks/local_setup.bash

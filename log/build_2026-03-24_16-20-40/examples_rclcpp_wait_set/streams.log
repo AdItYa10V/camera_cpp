@@ -1,0 +1,119 @@
+[0.046s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set
+[0.411s] -- The C compiler identification is GNU 11.4.0
+[0.753s] -- The CXX compiler identification is GNU 11.4.0
+[0.788s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.202s] -- Detecting C compile features
+[1.203s] -- Detecting C compile features - done
+[1.219s] -- Detecting CXX compiler ABI info
+[1.493s] -- Detecting CXX compiler ABI info - done
+[1.513s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.514s] -- Detecting CXX compile features
+[1.516s] -- Detecting CXX compile features - done
+[1.530s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.936s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.252s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.379s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.583s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.612s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.674s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.056s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[3.167s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.176s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.529s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.690s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.910s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.932s] -- Looking for pthread.h
+[4.171s] -- Looking for pthread.h - found
+[4.172s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.409s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.412s] -- Found Threads: TRUE  
+[4.606s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[4.739s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.988s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.996s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.998s] -- Configured cppcheck include dirs: /home/lactosenjoyer/cam_cpp/src/rclcpp/wait_set/include
+[4.998s] -- Configured cppcheck exclude dirs and/or files: 
+[5.004s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.004s] -- Configured cpplint exclude dirs and/or files: 
+[5.012s] -- Added test 'lint_cmake' to check CMake code style
+[5.016s] -- Added test 'uncrustify' to check C / C++ code style
+[5.016s] -- Configured uncrustify additional arguments: 
+[5.021s] -- Added test 'xmllint' to check XML markup files
+[5.027s] -- Configuring done
+[5.307s] -- Generating done
+[5.439s] -- Build files have been written to: /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set
+[5.515s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set
+[5.524s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set -- -j4 -l4
+[5.803s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[25.382s] [  8%] [32m[1mLinking CXX shared library libtalker.so[0m
+[25.721s] [  8%] Built target talker
+[25.749s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[31.016s] [ 16%] [32m[1mLinking CXX executable wait_set_listener[0m
+[31.247s] [ 16%] Built target wait_set_listener
+[31.281s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[47.481s] [ 25%] [32m[1mLinking CXX executable wait_set[0m
+[48.384s] [ 25%] Built target wait_set
+[48.413s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[63.141s] [ 33%] [32m[1mLinking CXX executable static_wait_set[0m
+[63.929s] [ 33%] Built target static_wait_set
+[63.959s] [ 37%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[83.170s] [ 41%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[84.099s] [ 41%] Built target thread_safe_wait_set
+[84.129s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[101.775s] [ 50%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[102.605s] [ 50%] Built target wait_set_topics_and_timer
+[102.634s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[120.477s] [ 58%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[121.454s] [ 58%] Built target wait_set_random_order
+[121.483s] [ 62%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[141.775s] [ 66%] [32m[1mLinking CXX executable executor_random_order[0m
+[142.765s] [ 66%] Built target executor_random_order
+[142.795s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[157.503s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[158.168s] [ 75%] Built target wait_set_topics_with_different_rates
+[158.196s] [ 83%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[158.197s] [ 83%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[163.496s] [ 87%] [32m[1mLinking CXX executable wait_set_talker[0m
+[163.741s] [ 87%] Built target wait_set_talker
+[172.169s] [ 91%] [32m[1mLinking CXX shared library liblistener.so[0m
+[172.893s] [ 91%] Built target listener
+[172.921s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[177.155s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[177.491s] [100%] Built target wait_set_composed
+[177.508s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set -- -j4 -l4
+[177.515s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set
+[177.529s] -- Install configuration: ""
+[177.529s] -- Execute custom install script
+[177.530s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[177.542s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[177.555s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/libtalker.so
+[177.567s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/liblistener.so
+[177.580s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[177.592s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[177.604s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[177.616s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[177.628s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[177.640s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[177.652s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[177.664s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[177.677s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[177.689s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[177.701s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[177.714s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[177.726s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[177.738s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[177.750s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[177.762s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[177.775s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[177.787s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[177.800s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[177.812s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[177.824s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[177.837s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[177.849s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[177.861s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[177.877s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_wait_set

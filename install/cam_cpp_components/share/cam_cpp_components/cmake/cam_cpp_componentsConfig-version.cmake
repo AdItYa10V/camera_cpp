@@ -1,0 +1,1 @@
+/home/lactosenjoyer/cam_cpp/build/cam_cpp_components/ament_cmake_core/cam_cpp_componentsConfig-version.cmake

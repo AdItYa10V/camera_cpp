@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-844479b423aaea6e7dc6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cam_cpp_components",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cam_container::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cam_container-579de1314d421bcb7aa6.json",
+					"name" : "cam_container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cam_cpp_components_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cam_cpp_components_uninstall-420661e6b113cf2d5340.json",
+					"name" : "cam_cpp_components_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "display_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-display_node-fadbf04aa8c7daf15d73.json",
+					"name" : "display_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_stage_components::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_stage_components-c61d4106f02b9c95a9e4.json",
+					"name" : "multi_stage_components",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "producer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-producer_node-febe677973ec75a929f9.json",
+					"name" : "producer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-9c32cb62ef919a72bdb3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lactosenjoyer/cam_cpp/build/cam_cpp_components",
+		"source" : "/home/lactosenjoyer/cam_cpp/src/cam_cpp_components"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

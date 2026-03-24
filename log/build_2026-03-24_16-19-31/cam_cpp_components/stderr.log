@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/cam_container.dir/src/cam_container.cpp.o: in function `void __gnu_cxx::new_allocator<multi_stage::Processor>::construct<multi_stage::Processor, rclcpp::NodeOptions&>(multi_stage::Processor*, rclcpp::NodeOptions&)':
+cam_container.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_]+0x47): undefined reference to `multi_stage::Processor::Processor(rclcpp::NodeOptions const&)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cam_container.dir/build.make:242: cam_container] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/cam_container.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

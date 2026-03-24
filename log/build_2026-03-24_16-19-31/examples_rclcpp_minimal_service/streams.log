@@ -1,0 +1,52 @@
+[0.048s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service
+[0.386s] -- The C compiler identification is GNU 11.4.0
+[0.751s] -- The CXX compiler identification is GNU 11.4.0
+[0.791s] -- Detecting C compiler ABI info
+[1.188s] -- Detecting C compiler ABI info - done
+[1.239s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.239s] -- Detecting C compile features
+[1.244s] -- Detecting C compile features - done
+[1.272s] -- Detecting CXX compiler ABI info
+[1.606s] -- Detecting CXX compiler ABI info - done
+[1.659s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.660s] -- Detecting CXX compile features
+[1.662s] -- Detecting CXX compile features - done
+[1.667s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.100s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.377s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.496s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[2.649s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.665s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.690s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.121s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[3.341s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.353s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.806s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.957s] -- Looking for pthread.h
+[4.360s] -- Looking for pthread.h - found
+[4.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.767s] -- Found Threads: TRUE  
+[5.080s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.418s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.421s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.422s] -- Configured cppcheck include dirs: 
+[5.423s] -- Configured cppcheck exclude dirs and/or files: 
+[5.425s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.426s] -- Configured cpplint exclude dirs and/or files: 
+[5.428s] -- Added test 'lint_cmake' to check CMake code style
+[5.431s] -- Added test 'uncrustify' to check C / C++ code style
+[5.432s] -- Configured uncrustify additional arguments: 
+[5.434s] -- Added test 'xmllint' to check XML markup files
+[5.448s] -- Configuring done
+[5.478s] -- Generating done
+[5.493s] -- Build files have been written to: /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_service
+[5.536s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_service' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/services/minimal_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service
+[5.541s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_service': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_service -- -j4 -l4
+[5.723s] [ 50%] [32mBuilding CXX object CMakeFiles/service_main.dir/main.cpp.o[0m
+[13.423s] [100%] [32m[1mLinking CXX executable service_main[0m
+[13.867s] [100%] Built target service_main

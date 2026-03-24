@@ -1,0 +1,34 @@
+[0.040s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4
+[0.271s] [ 22%] Built target producer_node
+[0.278s] [ 44%] Built target display_node
+[0.288s] [ 77%] Built target multi_stage_components
+[0.358s] [35m[1mConsolidate compiler generated dependencies of target cam_container[0m
+[0.428s] [ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[9.516s] [100%] [32m[1mLinking CXX executable cam_container[0m
+[10.464s] [100%] Built target cam_container
+[10.480s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4
+[10.483s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/cam_cpp_components
+[10.493s] -- Install configuration: ""
+[10.494s] -- Execute custom install script
+[10.494s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/producer_node
+[10.495s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/display_node
+[10.495s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/libmulti_stage_components.so
+[10.496s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/cam_container
+[10.496s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/include/cam_cpp_components/cam.hpp
+[10.497s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/package_run_dependencies/cam_cpp_components
+[10.497s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/parent_prefix_path/cam_cpp_components
+[10.497s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.sh
+[10.498s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.dsv
+[10.498s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.sh
+[10.498s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.dsv
+[10.499s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.bash
+[10.499s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.sh
+[10.499s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.zsh
+[10.499s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.dsv
+[10.500s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.dsv
+[10.512s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/packages/cam_cpp_components
+[10.512s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/rclcpp_components/cam_cpp_components
+[10.512s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig.cmake
+[10.513s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig-version.cmake
+[10.513s] -- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.xml
+[10.517s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/cam_cpp_components

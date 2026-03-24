@@ -1,0 +1,116 @@
+[0.034s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber
+[0.181s] -- The C compiler identification is GNU 11.4.0
+[0.367s] -- The CXX compiler identification is GNU 11.4.0
+[0.389s] -- Detecting C compiler ABI info
+[0.573s] -- Detecting C compiler ABI info - done
+[0.611s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.612s] -- Detecting C compile features
+[0.614s] -- Detecting C compile features - done
+[0.621s] -- Detecting CXX compiler ABI info
+[0.860s] -- Detecting CXX compiler ABI info - done
+[0.889s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.890s] -- Detecting CXX compile features
+[0.892s] -- Detecting CXX compile features - done
+[0.898s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.551s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.613s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.726s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.748s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.772s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.871s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.997s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.003s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.221s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.304s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.473s] -- Looking for pthread.h
+[2.663s] -- Looking for pthread.h - found
+[2.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.870s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.874s] -- Found Threads: TRUE  
+[3.102s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.208s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.447s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.454s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.454s] -- Configured cppcheck include dirs: 
+[3.454s] -- Configured cppcheck exclude dirs and/or files: 
+[3.454s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.455s] -- Configured cpplint exclude dirs and/or files: 
+[3.456s] -- Added test 'lint_cmake' to check CMake code style
+[3.461s] -- Added test 'uncrustify' to check C / C++ code style
+[3.461s] -- Configured uncrustify additional arguments: 
+[3.462s] -- Added test 'xmllint' to check XML markup files
+[3.473s] -- Configuring done
+[3.601s] -- Generating done
+[3.648s] -- Build files have been written to: /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber
+[3.685s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lactosenjoyer/cam_cpp/src/rclcpp/topics/minimal_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber
+[3.691s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[3.880s] [  4%] [32mBuilding CXX object CMakeFiles/subscriber_lambda.dir/lambda.cpp.o[0m
+[3.881s] [  8%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[3.892s] [ 12%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_topic_statistics.dir/member_function_with_topic_statistics.cpp.o[0m
+[3.896s] [ 16%] [32mBuilding CXX object CMakeFiles/subscriber_member_function.dir/member_function.cpp.o[0m
+[42.519s] [ 20%] [32m[1mLinking CXX executable subscriber_lambda[0m
+[43.504s] [ 25%] [32m[1mLinking CXX executable subscriber_member_function[0m
+[44.971s] [ 25%] Built target subscriber_lambda
+[45.867s] [ 25%] Built target subscriber_member_function
+[46.841s] [ 29%] [32m[1mLinking CXX executable subscriber_member_function_with_topic_statistics[0m
+[48.101s] [ 29%] Built target subscriber_member_function_with_topic_statistics
+[50.177s] [ 33%] [32m[1mLinking CXX executable subscriber_member_function_with_type_adapter[0m
+[51.054s] [ 33%] Built target subscriber_member_function_with_type_adapter
+[51.083s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_content_filtering.dir/content_filtering.cpp.o[0m
+[65.289s] [ 41%] [32m[1mLinking CXX executable subscriber_content_filtering[0m
+[66.131s] [ 41%] Built target subscriber_content_filtering
+[66.162s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/wait_set_subscriber.cpp.o[0m
+[81.705s] [ 50%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/static_wait_set_subscriber.cpp.o[0m
+[97.027s] [ 54%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber_library.dir/time_triggered_wait_set_subscriber.cpp.o[0m
+[115.766s] [ 58%] [32m[1mLinking CXX shared library libwait_set_subscriber_library.so[0m
+[117.585s] [ 58%] Built target wait_set_subscriber_library
+[117.615s] [ 62%] [32mBuilding CXX object CMakeFiles/wait_set_subscriber.dir/rclcpp_components/node_main_wait_set_subscriber.cpp.o[0m
+[124.347s] [ 66%] [32m[1mLinking CXX executable wait_set_subscriber[0m
+[124.612s] [ 66%] Built target wait_set_subscriber
+[124.650s] [ 70%] [32mBuilding CXX object CMakeFiles/static_wait_set_subscriber.dir/rclcpp_components/node_main_static_wait_set_subscriber.cpp.o[0m
+[130.061s] [ 75%] [32m[1mLinking CXX executable static_wait_set_subscriber[0m
+[130.299s] [ 75%] Built target static_wait_set_subscriber
+[130.338s] [ 79%] [32mBuilding CXX object CMakeFiles/time_triggered_wait_set_subscriber.dir/rclcpp_components/node_main_time_triggered_wait_set_subscriber.cpp.o[0m
+[135.698s] [ 83%] [32m[1mLinking CXX executable time_triggered_wait_set_subscriber[0m
+[135.981s] [ 83%] Built target time_triggered_wait_set_subscriber
+[136.011s] [ 87%] [32mBuilding CXX object CMakeFiles/subscriber_not_composable.dir/not_composable.cpp.o[0m
+[156.167s] [ 91%] [32m[1mLinking CXX executable subscriber_not_composable[0m
+[157.000s] [ 91%] Built target subscriber_not_composable
+[157.030s] [ 95%] [32mBuilding CXX object CMakeFiles/subscriber_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[173.468s] [100%] [32m[1mLinking CXX executable subscriber_member_function_with_unique_network_flow_endpoints[0m
+[174.291s] [100%] Built target subscriber_member_function_with_unique_network_flow_endpoints
+[174.308s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber -- -j4 -l4
+[174.311s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber
+[174.321s] -- Install configuration: ""
+[174.322s] -- Execute custom install script
+[174.322s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/wait_set_subscriber
+[174.336s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/static_wait_set_subscriber
+[174.348s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/time_triggered_wait_set_subscriber
+[174.362s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/libwait_set_subscriber_library.so
+[174.384s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_lambda
+[174.398s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function
+[174.411s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_topic_statistics
+[174.423s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_type_adapter
+[174.436s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_member_function_with_unique_network_flow_endpoints
+[174.450s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_not_composable
+[174.467s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/lib/examples_rclcpp_minimal_subscriber/subscriber_content_filtering
+[174.490s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_subscriber
+[174.503s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_subscriber
+[174.515s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.sh
+[174.528s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/ament_prefix_path.dsv
+[174.540s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.sh
+[174.553s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/environment/path.dsv
+[174.565s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.bash
+[174.587s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.sh
+[174.599s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.zsh
+[174.612s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/local_setup.dsv
+[174.624s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.dsv
+[174.637s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/packages/examples_rclcpp_minimal_subscriber
+[174.649s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_minimal_subscriber
+[174.663s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig.cmake
+[174.684s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/cmake/examples_rclcpp_minimal_subscriberConfig-version.cmake
+[174.697s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_subscriber/share/examples_rclcpp_minimal_subscriber/package.xml
+[174.714s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber

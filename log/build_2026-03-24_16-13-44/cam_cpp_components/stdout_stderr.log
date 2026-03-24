@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lactosenjoyer/cam_cpp/build/cam_cpp_components
+[ 11%] [32mBuilding CXX object CMakeFiles/multi_stage_components.dir/src/producer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/multi_stage_components.dir/src/display.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/display_node.dir/rclcpp_components/node_main_display_node.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/producer_node.dir/rclcpp_components/node_main_producer_node.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable producer_node[0m
+[ 55%] Built target producer_node
+[ 66%] [32m[1mLinking CXX executable display_node[0m
+[ 66%] Built target display_node
+[ 77%] [32m[1mLinking CXX shared library libmulti_stage_components.so[0m
+[ 77%] Built target multi_stage_components
+[ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cam_container[0m
+/usr/bin/ld: CMakeFiles/cam_container.dir/src/cam_container.cpp.o: in function `void __gnu_cxx::new_allocator<multi_stage::Processor>::construct<multi_stage::Processor, rclcpp::NodeOptions&>(multi_stage::Processor*, rclcpp::NodeOptions&)':
+cam_container.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_]+0x47): undefined reference to `multi_stage::Processor::Processor(rclcpp::NodeOptions const&)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::imshow(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::VideoCapture::operator>>(cv::Mat&)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::VideoCapture::isOpened() const'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::CascadeClassifier::load(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::CascadeClassifier::~CascadeClassifier()'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::VideoCapture::~VideoCapture()'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::waitKey(int)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::CascadeClassifier::detectMultiScale(cv::_InputArray const&, std::vector<cv::Rect_<int>, std::allocator<cv::Rect_<int> > >&, double, int, int, cv::Size_<int>, cv::Size_<int>)'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::CascadeClassifier::CascadeClassifier()'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::VideoCapture::VideoCapture()'
+/usr/bin/ld: libmulti_stage_components.so: undefined reference to `cv::VideoCapture::open(int, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cam_container.dir/build.make:191: cam_container] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/cam_container.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

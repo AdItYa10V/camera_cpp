@@ -1,0 +1,2 @@
+multi_stage::Producer;lib/libmulti_stage_components.so
+multi_stage::Display;lib/libmulti_stage_components.so

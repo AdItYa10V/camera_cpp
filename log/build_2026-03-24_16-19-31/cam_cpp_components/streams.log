@@ -1,0 +1,13 @@
+[0.030s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4
+[0.249s] [ 33%] Built target multi_stage_components
+[0.249s] [ 55%] Built target producer_node
+[0.264s] [ 77%] Built target display_node
+[0.329s] [ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[28.640s] [100%] [32m[1mLinking CXX executable cam_container[0m
+[30.545s] /usr/bin/ld: CMakeFiles/cam_container.dir/src/cam_container.cpp.o: in function `void __gnu_cxx::new_allocator<multi_stage::Processor>::construct<multi_stage::Processor, rclcpp::NodeOptions&>(multi_stage::Processor*, rclcpp::NodeOptions&)':
+[30.546s] cam_container.cpp:(.text._ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_[_ZN9__gnu_cxx13new_allocatorIN11multi_stage9ProcessorEE9constructIS2_JRN6rclcpp11NodeOptionsEEEEvPT_DpOT0_]+0x47): undefined reference to `multi_stage::Processor::Processor(rclcpp::NodeOptions const&)'
+[30.631s] collect2: error: ld returned 1 exit status
+[30.634s] gmake[2]: *** [CMakeFiles/cam_container.dir/build.make:242: cam_container] Error 1
+[30.635s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/cam_container.dir/all] Error 2
+[30.636s] gmake: *** [Makefile:146: all] Error 2
+[30.641s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/cam_cpp_components' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/cam_cpp_components -- -j4 -l4

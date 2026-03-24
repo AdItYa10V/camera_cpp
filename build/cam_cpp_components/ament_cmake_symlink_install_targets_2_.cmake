@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/lactosenjoyer/cam_cpp/build/cam_cpp_components/libmulti_stage_components.so" "/home/lactosenjoyer/cam_cpp/build/cam_cpp_components/cam_container" "TARGETS" "multi_stage_components" "cam_container" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/cam_cpp_components")

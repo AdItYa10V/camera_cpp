@@ -1,0 +1,30 @@
+[ 22%] Built target producer_node
+[ 44%] Built target display_node
+[ 77%] Built target multi_stage_components
+[35m[1mConsolidate compiler generated dependencies of target cam_container[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/cam_container.dir/src/cam_container.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cam_container[0m
+[100%] Built target cam_container
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/producer_node
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/display_node
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/libmulti_stage_components.so
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/lib/cam_cpp_components/cam_container
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/include/cam_cpp_components/cam.hpp
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/package_run_dependencies/cam_cpp_components
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/parent_prefix_path/cam_cpp_components
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/environment/path.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.bash
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.zsh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/local_setup.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/packages/cam_cpp_components
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/ament_index/resource_index/rclcpp_components/cam_cpp_components
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig.cmake
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/cmake/cam_cpp_componentsConfig-version.cmake
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp_components/share/cam_cpp_components/package.xml

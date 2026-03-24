@@ -1,0 +1,11 @@
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/uninstall.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/cam_cpp_uninstall.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/imgPub.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/imgSub.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/test.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/edit_cache.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/rebuild_cache.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/list_install_components.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/install.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/install/local.dir
+/home/lactosenjoyer/cam_cpp/build/cam_cpp/CMakeFiles/install/strip.dir

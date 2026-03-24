@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.191s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[0.230s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[37.163s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[38.094s] [ 33%] Built target composition_nodes
+[38.134s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[43.064s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[43.520s] [ 55%] Built target composition_publisher
+[43.553s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[43.562s] [ 77%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[48.660s] [ 88%] [32m[1mLinking CXX executable composition_composed[0m
+[48.690s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[49.169s] [100%] Built target composition_composed
+[49.197s] [100%] Built target composition_subscriber

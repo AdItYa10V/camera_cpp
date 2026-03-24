@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client -- -j4 -l4
+[0.207s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[21.250s] [100%] [32m[1mLinking CXX executable client_main[0m
+[22.148s] [100%] Built target client_main
+[22.206s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client -- -j4 -l4
+[22.213s] Invoking command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client
+[22.252s] -- Install configuration: ""
+[22.256s] -- Execute custom install script
+[22.256s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[22.316s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[22.354s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[22.395s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[22.444s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[22.505s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[22.547s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[22.590s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[22.646s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[22.681s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[22.731s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[22.773s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[22.823s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[22.874s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[22.935s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[23.040s] -- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[23.115s] Invoked command in '/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_client

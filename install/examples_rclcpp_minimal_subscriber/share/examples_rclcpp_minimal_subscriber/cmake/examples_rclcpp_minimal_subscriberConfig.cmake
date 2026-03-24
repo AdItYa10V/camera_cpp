@@ -1,0 +1,1 @@
+/home/lactosenjoyer/cam_cpp/build/examples_rclcpp_minimal_subscriber/ament_cmake_core/examples_rclcpp_minimal_subscriberConfig.cmake

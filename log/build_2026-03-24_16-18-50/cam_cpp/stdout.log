@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target imgPub[0m
+[35m[1mConsolidate compiler generated dependencies of target imgSub[0m
+[ 75%] Built target imgSub
+[100%] Built target imgPub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/lib/cam_cpp/imgPub
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/lib/cam_cpp/imgSub
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/launch/cam_launch.py
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/ament_index/resource_index/package_run_dependencies/cam_cpp
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/ament_index/resource_index/parent_prefix_path/cam_cpp
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/environment/path.sh
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/local_setup.bash
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/local_setup.sh
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/local_setup.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/package.dsv
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/ament_index/resource_index/packages/cam_cpp
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/cmake/cam_cppConfig.cmake
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/cmake/cam_cppConfig-version.cmake
+-- Up-to-date symlink: /home/lactosenjoyer/cam_cpp/install/cam_cpp/share/cam_cpp/package.xml

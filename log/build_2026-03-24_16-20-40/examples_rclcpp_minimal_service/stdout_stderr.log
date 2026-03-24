@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target service_main[0m
+[100%] Built target service_main
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/lib/examples_rclcpp_minimal_service/service_main
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_service
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_service
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/environment/path.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.bash
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.sh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.zsh
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/local_setup.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.dsv
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/ament_index/resource_index/packages/examples_rclcpp_minimal_service
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig.cmake
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/cmake/examples_rclcpp_minimal_serviceConfig-version.cmake
+-- Symlinking: /home/lactosenjoyer/cam_cpp/install/examples_rclcpp_minimal_service/share/examples_rclcpp_minimal_service/package.xml
